@@ -7,8 +7,7 @@ import {
 
 const APP_TITLE = "KBKh Hub";
 const TEAMS = ['KBKh', 'BKLN', 'Bigganneshi'];
-const API_BASE_URL = "/api";
-
+const API_BASE_URL = "http://teambkkh.byethost7.com/api";
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [currentUser, setCurrentUser] = useState<any>(null);
